@@ -1,12 +1,14 @@
 {
   "dependencies": {
+    "chart.js": "^4.4.0",
     "jest": "^29.6.4"
   },
   "jest": {
     "testEnvironment": "jsdom"
   },
   "devDependencies": {
-    "jest-environment-jsdom": "^29.6.4"
+    "jest-environment-jsdom": "^29.6.4",
+    "parcel": "^2.9.3"
   },
   "scripts": {
     "test": "jest"
