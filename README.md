@@ -13,15 +13,18 @@
 5. Open the terminal and write: **npm install**
 6. Add a .env file in the root and add your unsplash access key like this: UNSPLASH_ACCESS_KEY="yourKeyHere"
 7. To start a program enter one of the following commands:
-   **npx parcel Anagram/index.html**
-   **npx parcel Dashboard-Frontend/index.html**
-   **npx parcel Puppies/index.html** Obs! kräver konto på unsplash
+
+- **npx parcel Anagram/index.html**
+- **npx parcel Dashboard-Frontend/index.html**
+- **npx parcel Puppies/index.html** Obs! kräver konto på unsplash
+
 8. Go to http://localhost:1234 in your browser to see the projects
 9. To run jest test write: **npx jest**
 10. To build a program enter one of the following commands:
-    **npx parcel build Anagram/index.html**
-    **npx parcel build Dashboard-Frontend/index.html**
-    **npx parcel build Puppies/index.html**
+
+- **npx parcel build Anagram/index.html**
+- **npx parcel build Dashboard-Frontend/index.html**
+- **npx parcel build Puppies/index.html**
 
 #### Swedish
 
@@ -34,12 +37,15 @@
 5. Öppna terminalen och skriv: **npm install**
 6. Lägg till en .env fil i projektets root och lägg till din unsplash access key så här: UNSPLASH_ACCESS_KEY="dinNyckelHär"
 7. För att starta valfritt program skriv en av följande:
-   **npx parcel Anagram/index.html**
-   **npx parcel Dashboard-Frontend/index.html**
-   **npx parcel Puppies/index.html** Obs! kräver konto på unsplash
+
+- **npx parcel Anagram/index.html**
+- **npx parcel Dashboard-Frontend/index.html**
+- **npx parcel Puppies/index.html** Obs! kräver konto på unsplash
+
 8. Gå till http://localhost:1234 i din webbläsare för att se projekten
 9. För att köra jest test skriv: **npx jest**
 10. För att bygga ett program skriv en av följande:
-    **npx parcel build Anagram/index.html**
-    **npx parcel build Dashboard-Frontend/index.html**
-    **npx parcel build Puppies/index.html**
+
+- **npx parcel build Anagram/index.html**
+- **npx parcel build Dashboard-Frontend/index.html**
+- **npx parcel build Puppies/index.html**
