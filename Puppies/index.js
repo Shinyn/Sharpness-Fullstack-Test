@@ -5,12 +5,13 @@ const imagesPerPage = 20;
 const mainContainer = document.querySelector('.mainContainer');
 const allButton = document.querySelector('#allButton');
 const colorButtons = document.querySelectorAll('.colorButton');
+const accessKey = process.env.UNSPLASH_ACCESS_KEY;
 let imageDataArray = [];
 
 document.addEventListener('DOMContentLoaded', function () {
   let currentFilterColor = '';
   function fetchAndLoadImages() {
-    const URL = `https://api.unsplash.com/search/photos/?client_id=${process.env.UNSPLASH_ACCESS_KEY}&query=puppies&page=${page}&per_page=${imagesPerPage}`;
+    const URL = `https://api.unsplash.com/search/photos/?client_id=${accessKey}&query=puppies&page=${page}&per_page=${imagesPerPage}`;
     axios
       .get(URL)
       .then(function (response) {
