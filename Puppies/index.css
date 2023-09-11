@@ -1,0 +1,41 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+a {
+  color: rgb(2, 56, 155);
+  font-weight: 800;
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.mainContainer .imageDiv img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.mainContainer .imageDiv img:hover {
+  object-fit: contain;
+}
+
+.buttonContainer {
+  padding: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonContainer button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
