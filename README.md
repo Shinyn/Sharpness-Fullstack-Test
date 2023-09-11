@@ -2,7 +2,7 @@
 
 ## Setup:
 
-#### English
+### English
 
 **_Before you run the Puppies program make sure you have an unsplash account and an access key_**
 
@@ -26,7 +26,7 @@
 - **npx parcel build Dashboard-Frontend/index.html**
 - **npx parcel build Puppies/index.html**
 
-#### Swedish
+### Swedish
 
 **_Innan du kör Puppies programmet se till så du har ett unsplash account och en access key_**
 
@@ -49,3 +49,13 @@
 - **npx parcel build Anagram/index.html**
 - **npx parcel build Dashboard-Frontend/index.html**
 - **npx parcel build Puppies/index.html**
+
+## Bugs / Buggar
+
+### English
+
+If you try to start a program but a previous one loads instead **delete the .parcel-cache** folder and try again.
+
+### Swedish
+
+Om du försöker starta ett program men får upp ett program som körts tidigare **ta bort .parcel-cache** mappen och försök igen.
