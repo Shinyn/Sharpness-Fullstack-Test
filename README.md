@@ -16,7 +16,7 @@
 
 - **npx parcel Anagram/index.html**
 - **npx parcel Dashboard-Frontend/index.html**
-- **npx parcel Puppies/index.html** Obs! kräver konto på unsplash
+- **npx parcel Puppies/index.html** Obs! Requires account on unsplash
 
 8. Go to http://localhost:1234 in your browser to see the projects
 9. To run jest test write: **npx jest**
